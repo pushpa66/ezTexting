@@ -15,10 +15,11 @@ class DefaultController extends Controller
      */
     public function ezTextingIndexAction(Request $request){
         $clientCount = sizeof(Configuration::$userNames);
+        $serverResponse = array();
         for ($i = 0; $i < $clientCount; $i++){
             $data = true;
             $index = 1;
-            $serverResponse = array();
+
             $messageIds = array();
             $userName = Configuration::$userNames[$i];
             $password = Configuration::$passwords[$i];
