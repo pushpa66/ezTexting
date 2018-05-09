@@ -86,7 +86,7 @@ class DefaultController extends Controller
             }
 
             $managingInboxController = new ManagingInboxController();
-            $managingInboxController->moveMessageToFolder_Normal($messageIds, $userName, $password,Configuration::moveFolderId);
+            $managingInboxController->moveMessageToFolder_Normal($messageIds, $userName, $password,Configuration::$moveFolderIds[$i]);
         }
 
         $res = array('status'=>'OK', 'messageCount' => count($serverResponse));

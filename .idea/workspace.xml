@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d599bd9-76da-4602-a0a3-368a82419efd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Config/Configuration.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Config/Configuration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ContactsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ContactsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/ManagingInboxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/ManagingInboxController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,27 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/GroupsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="168" column="12" selection-start-line="168" selection-start-column="12" selection-end-line="173" selection-end-column="13" />
-              <folding>
-                <element signature="e#121#171#0#PHP" expanded="true" />
-                <element signature="e#380#1776#0#PHP" />
-                <element signature="e#1853#3256#0#PHP" />
-                <element signature="e#3333#4450#0#PHP" />
-                <element signature="e#6221#7401#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="330">
+              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
               <folding>
                 <element signature="e#40#75#0#PHP" expanded="true" />
               </folding>
@@ -60,24 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ContactsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1770">
-              <caret line="123" column="49" lean-forward="true" selection-start-line="123" selection-start-column="49" selection-end-line="123" selection-end-column="49" />
-              <folding>
-                <element signature="e#122#157#0#PHP" expanded="true" />
-                <element signature="e#4667#6690#0#PHP" />
-                <element signature="e#6749#7885#0#PHP" />
-                <element signature="e#7967#10357#0#PHP" />
-                <element signature="e#10438#12205#0#PHP" />
-                <element signature="e#12211#13738#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Configuration.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Configuration.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Config/Configuration.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -104,10 +68,10 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/GroupsController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/SendingSmsMessageController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/CreditsController.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Config/Configuration.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/ContactsController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/ManagingInboxController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Config/Configuration.php" />
       </list>
     </option>
   </component>
@@ -241,12 +205,12 @@
       <updated>1525100792805</updated>
       <workItem from="1525100801113" duration="10418000" />
       <workItem from="1525148892816" duration="13307000" />
-      <workItem from="1525877704313" duration="1653000" />
+      <workItem from="1525877704313" duration="2284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25378000" />
+    <option name="totallyTimeSpent" value="26009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
@@ -430,13 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Config/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/ContactsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1770">
@@ -465,11 +422,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="330">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
           <folding>
             <element signature="e#40#75#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Config/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
