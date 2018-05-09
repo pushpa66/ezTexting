@@ -124,10 +124,10 @@ class ContactsController
         return new JsonResponse($serverResponse);
     }
 
-    public function updateContact_Normal($id, $phoneNumber, $firstName, $lastName, $email, $note,$array){
+    public function updateContact_Normal($id, $userName, $password, $phoneNumber, $firstName, $lastName, $email, $note,$array){
         $data = array(
-            'User'        => Configuration::userName,
-            'Password'    => Configuration::password,
+            'User'        => $userName,
+            'Password'    => $password,
             'PhoneNumber' => $phoneNumber,
             'FirstName'   => $firstName,
             'LastName'    => $lastName,
@@ -319,10 +319,10 @@ class ContactsController
         return new JsonResponse($serverResponse);
     }
 
-    public function getOneContact_Normal($id){
+    public function getOneContact_Normal($id, $userName, $password){
         $data = array(
-            'User'     => Configuration::userName,
-            'Password' => Configuration::password
+            'User'     => $userName,
+            'Password' => $password
         );
 
         $readContact = array(

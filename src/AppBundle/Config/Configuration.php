@@ -13,6 +13,8 @@ class Configuration
 {
     const userName = "Townview";
     const password = "Fullerton2018";
+    public static $userNames = array("Townview", "MVdental0323");
+    public static $passwords = array("Fullerton2018", "MVdental0323");
     const maxItemsPerPage = 200;
     const moveFolderId = 15990;
 }

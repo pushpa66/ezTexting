@@ -174,10 +174,10 @@ class ManagingInboxController
         return new JsonResponse($serverResponse);
     }
 
-    public function moveMessageToFolder_Normal($ids, $folderId){
+    public function moveMessageToFolder_Normal($ids, $userName, $password, $folderId){
         $data = array(
-            'User'          => Configuration::userName,
-            'Password'      => Configuration::password,
+            'User'          => $userName,
+            'Password'      => $password,
             'ID'        => $ids,
             'FolderID'  => $folderId
         );
